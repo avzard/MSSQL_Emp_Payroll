@@ -18,9 +18,9 @@ Create Table Employee_payroll(
 --------------UC_3--------------
 --Insert Into Operation--
 Insert Into Employee_payroll
-Values ('Shivaraj',766758, '2019-02-02'),('Dhoni',683865, '2020-03-05');
+Values ('Abhishek',766758, '2021-12-02'),('Amol',683865, '2020-03-05');
 Insert Into Employee_payroll (Name,startDate)
-Values ('Shivaraj','2019-02-02'),('Dhoni', '2020-03-05');
+Values ('Abhishek','2021-12-02'),('Amol', '2020-03-05');
 
 --------------UC_4--------------
 --Retrieve Data--
