@@ -1,0 +1,28 @@
+---Welcome To Employee Pay Roll Data Base Problem---
+--------------UC_1--------------
+--Create DataBase--
+create database payroll_service;
+
+--Switch To Working Data Base-- 
+use payroll_service;
+
+--------------UC_2--------------
+--Creating Table Statement--
+Create Table Employee_payroll(
+	id int identity(1,1) PRIMARY KEY,
+	[Name] varchar(200),
+	Salary float,
+	startDate datetime
+);
+		
+--------------UC_3--------------
+--Insert Into Operation--
+Insert Into Employee_payroll
+Values ('Shivaraj',766758, '2019-02-02'),('Dhoni',683865, '2020-03-05');
+Insert Into Employee_payroll (Name,startDate)
+Values ('Shivaraj','2019-02-02'),('Dhoni', '2020-03-05');
+
+--------------UC_4--------------
+--Retrieve Data--
+select * from Employee_payroll;
+select Id, Name from Employee_payroll;
