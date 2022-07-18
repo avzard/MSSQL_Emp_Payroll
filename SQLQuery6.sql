@@ -26,11 +26,3 @@ Values ('Abhishek','2021-12-02'),('Amol', '2020-03-05');
 --Retrieve Data--
 select * from Employee_payroll;
 select Id, Name from Employee_payroll;
---------------UC_5--------------
--- Retreive Salary--
-select * from Employee_payroll where Name = 'Abhishek' or Name = 'Amol';
-
-select * from Employee_payroll where Name = 'Abhishek' or Id = '4';
-
---Retrive Record Based on Date range--
-select * from Employee_payroll where startDate between cast('2020-01-01' as date) and getdate();
